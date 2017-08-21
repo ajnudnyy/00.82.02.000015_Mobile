@@ -1,0 +1,97 @@
+.body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.top-grid{
+	border-bottom: solid 1px #f1f1f1;
+	padding: 6px;
+}
+
+.nav>li {
+	float: left;
+}
+
+.minHeightClear {
+  border: 1px solid #f1f1f1;
+}
+
+.navbar-margin-Clear {
+	margin: 0 !important;
+}
+
+.navbar-btm-Clear {
+  margin-bottom: 0px !important;
+}
+
+.collapse {
+  display: grid !important;
+}
+
+.element {
+	height:1000px;
+	background-color: #ffffff;
+	font-size: 15px;
+	border-top:1px solid #f1f1f1;
+	padding-top: 30px;
+}
+
+.active {
+	background-color: #cfecf8 !important;
+}
+
+div.breatheDiv{
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+  background-color: #FF94A6;
+  border-radius: 100%;
+  webkit-animation: breathe 2000ms ease infinite;
+  -moz-animation: breathe 2000ms ease infinite;
+  -o-animation: breathe 2000ms ease infinite;
+  animation: breathe 2000ms ease infinite;
+}
+
+@-webkit-keyframes breathe{
+  0% {opacity:.2;box-shadow:0 1px 10px rgba(255,255,255,0.1)}
+  100%{opacity:1;box-shadow:0 1px 40px rgba(255,107,132,0.5)}
+  50%{opacity:1;box-shadow:0 1px 80px #ff6b84}
+}
+@-moz-keyframes breathe{
+  0% {opacity:.2;box-shadow:0 1px 10px rgba(255,255,255,0.1)}
+  100%{opacity:1;box-shadow:0 1px 40px rgba(255,107,132,0.5)}
+  50%{opacity:1;box-shadow:0 1px 80px #ff6b84}
+}
+@-o-keyframes breathe{
+  0% {opacity:.2;box-shadow:0 1px 10px rgba(255,255,255,0.1)}
+  100%{opacity:1;box-shadow:0 1px 40px rgba(255,107,132,0.5)}
+  50%{opacity:1;box-shadow:0 1px 80px #ff6b84}
+}
+@keyframes breathe{
+  0% {opacity:.2;box-shadow:0 1px 10px rgba(255,255,255,0.1)}
+  100%{opacity:1;box-shadow:0 1px 40px rgba(255,107,132,0.5)}
+  50%{opacity:1;box-shadow:0 1px 80px #ff6b84}
+}
+
+.btnScroll {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.928571;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	background-color: #518ec2;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none !important;
+	border: solid 0px !important;
+	border-radius: 0px !important;
+}
