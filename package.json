@@ -3,19 +3,11 @@
   "version": "1.5.4",
   "description": "A scroll component for React.js",
   "main": "modules",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ajnudnyy/00.82.02.000015_Mobile.git"
-  },
   "scripts": {
     "examples": "webpack-dev-server --config examples/webpack.config.js --no-info --content-base examples",
     "build": "babel modules -d build/npm/modules --ignore '**/__tests__/**' && gulp",
     "clean": "rm -rf build/npm/modules",
     "test": "karma start"
-  },
-  "homepage": "https://github.com/fisshy/react-scroll",
-  "bugs": {
-    "url": "https://github.com/fisshy/react-scroll/issues"
   },
   "authors": [
     "Joachim Karlsson"
